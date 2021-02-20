@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: roboto;
+}
+h1,h2,h3,h4,h5,h5 {
+    font-family: 'Nova Round', cursive
+}
+.wrap {
+    background: rgba(0,0,0,0.8)url(background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay; 
+    padding-top: 20px;
+}
+.wafe {
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+    color: #fff;
+    opacity: 1;
+}
+header .logo img{
+   height: 50px;
+   position: absolute;
+   margin-left: 80px;
+   margin-top: 10px;
+
+}
+header .menu {
+    margin-left: 720px;
+    margin-top: 10px;
+
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 3000;
+    letter-spacing: 1px;
+}
+.content {
+    max-width: 55%;
+    padding: 100px 90px 0;
+    color: #fff;
+}
+.content h1 {
+    font-size: 40px;
+} 
+.content p {
+    font-size: 20px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.content .btn-group{
+    margin-left: 1600px;
+    margin-top: -620px;
+    
+}
+.content .btn-group a{
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 4px 15px;
+    text-decoration: none;
+    border-radius: 20px;  
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.content a.color1 {
+    background-color: #ffc107;
+}
+.our-partners {
+    text-align: center;
+    padding: 0 80px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.our-partners h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.our-partners hr {
+    border: none;
+    height: 4px;
+    width: 140px;
+    background-color: orange;
+    margin-bottom: 20px;
+    margin-left: 800px;
+}
+.our-partners-inner {
+    margin-top: 50px;
+}
+.our-partners-inner img {
+    width: 80%;
+}
+
+.navbar a {
+    margin-left: auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 3000;
+    letter-spacing: 1px;
+}
+.navbar {
+    display: inline-block;
+}
+.containerr {
+    border: none;
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+.containerr .footer .tim {
+    margin-left: 400px;
+    margin-top: -160px;    
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+.containerr .footer .alamat{
+    margin-left: 90px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+.containerr .footer .kontak {
+    margin-left: 700px;
+    margin-top: -190px;
+    line-height: 30px;
+}
+.portfolio {
+    margin-left: 1100px;
+    margin-top: -220px;
+    color: #fff;
+    border: none;
+}
+.portfolio img{
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.portfolio h3 {
+    margin-left: 300px;
+    margin-top: -260px;
+}
+.containerr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 650px) {
+    .content h1 {
+        font-size: 20px;
+    }
+    header .menu {
+        font-size: 10px;
+    }
+
+}
+
